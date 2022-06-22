@@ -1,0 +1,40 @@
+
+.mandiv{
+   width: 800px;
+   height: auto; 
+   border: 2px solid black;
+   margin: auto;
+}
+.hover{
+    height: 300px;
+    width: 300px; 
+    position: relative;
+   
+}
+.hover img{
+    max-width: 100%;
+}
+.hover-inner h2{
+    margin-top: 115px;
+    font-size: 25px;
+  } 
+.hover-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    text-align: center;
+    height: 0%;
+    color: white;
+    background: rgba(123, 35, 104, 0.6);
+    visibility: hidden; 
+    opacity: 0; 
+    transition: .4s;
+  }
+  .hover:hover .hover-inner{
+   width: 100%;
+   height: 100%;
+   visibility: visible;
+   opacity: 1;
+  }
+  
